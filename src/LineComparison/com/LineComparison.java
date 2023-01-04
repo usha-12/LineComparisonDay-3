@@ -48,13 +48,20 @@ public class LineComparison {
             System.out.println("Line 1 and line 2 have equal lengths .");
         else
             System.out.println("Line first and line 2 not have equal lengths .");
-
+        if ((Double.compare(lengthLine1, lengthLine2))==0)
+            System.out.println("Length of line 1 is equal to the length of line 2.");
+        else
+        if ((Double.compare(lengthLine1, lengthLine2)) <0)
+            System.out.println("Length of line 1 is less than the length of line 2.");
+        else
+        if ((Double.compare(lengthLine1,lengthLine2))>0)
+            System.out.println("Length of line 1 is greater than the length of line 2.");
 
     }
 }
 /*As a fan of geometry, I want to
-check equality of two lines
-based on the end points, So
-that I know when two lines are
-the equal. - Using Java equals method to check equality of 2 Lengths is
+compare two lines based on
+the end points, So that I know
+one line is equal, greater or
+less than the other line. - Using Java compareTo method to compare 2 Lengths is
 preferable.*/
