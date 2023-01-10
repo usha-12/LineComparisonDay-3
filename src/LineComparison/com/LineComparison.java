@@ -56,7 +56,6 @@ public class LineComparison {
         else
         if ((Double.compare(lengthLine1,lengthLine2))>0)
             System.out.println("Length of line 1 is greater than the length of line 2.");
-
     }
 }
 /*As a fan of geometry, I want to
