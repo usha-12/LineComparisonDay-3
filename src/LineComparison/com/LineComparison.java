@@ -1,4 +1,4 @@
-package com.brideglabz.LineComparison;
+package com.brideglabz.linecomparison;
 import java.util.Scanner;
 public class LineComparison {
     public static void main(String[] args) {
